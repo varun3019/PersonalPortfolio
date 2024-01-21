@@ -3,8 +3,11 @@
     padding: 0;margin: 0;box-sizing: border-box;
 }
 
-h1
+
+
+h2
 {
+    margin-top: 30px;
     text-align: center;
 }
 
@@ -15,4 +18,20 @@ form
     justify-content: center;
     align-items: center ;
     flex-direction: column;
+    color: white;
+}
+
+input
+{
+    width: 20%;
+    color: white;
+    border: none;
+}
+
+button
+{
+    border-radius: 40px;
+    width: 50px;
+    background-color: whitesmoke;
+    color: black;
 }

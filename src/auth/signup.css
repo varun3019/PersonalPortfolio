@@ -17,7 +17,49 @@ form
     flex-direction: column;
 }
 
-input 
+input
 {
     color: whitesmoke;
+}
+
+.row
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.activeColor
+{
+    padding-top: 5px;
+    height: 30px;
+    width: 5%;
+    border: 2px solid grey;
+    cursor: pointer;
+}
+
+h1
+{
+    margin-top: 30px;
+}
+
+p
+{
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+
+button
+{
+    cursor: pointer;
+}
+
+.pointer
+{
+    cursor: pointer;
+    width: 5%;
+    padding-top: 5px;
+
 }
